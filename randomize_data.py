@@ -26,7 +26,7 @@ for i in range(files.size):
             df_partial.to_csv(os.path.normpath("randomized-" + str(j) + ".csv"))
 
 #quickly make a manifest for random data
-f = open("random_manifest.txt", "w")
+f = open("_random_manifest.txt", "w")
 files = []
 for i in range(676):
     files.append("randomized-" + str(i) + ".csv\n")
