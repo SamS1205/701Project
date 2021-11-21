@@ -18,3 +18,5 @@ Then adds the weather data to the original data frame and writes it to a new fil
 
 add_weather_non_random.py:
 Adds the weather data to the data read straight from the original zip file. Also does the splitting of the date-time to day and time.
+
+Each file sets the path to the taxi data folder at the top, make sure to change this.
