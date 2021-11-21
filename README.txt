@@ -15,3 +15,6 @@ The data gets stored in a file called '[location].csv'
 combine_data.py:
 Rus through each random file and for each data points looks up the correct weather data. 
 Then adds the weather data to the original data frame and writes it to a new file.
+
+add_weather_non_random.py:
+Adds the weather data to the data read straight from the original zip file. Also does the splitting of the date-time to day and time.
